@@ -1,0 +1,25 @@
+`Hi `;
+reciever;
+` someone has picked YOU to recieve the following gift that was chose at random: `;
+a = Math.floor(Math.random() * 6;
+if (a == 0){`Nothing!`}
+else if (a == 1){
+`Tramatic Childhood Experience: `;
+b = Math.floor(Math.random() * 5);
+trauma = ["Coal for Christmas","A Broken Arm","Messed up Solo at Band Concert","Parents Fighting","A Dead Carnival Goldfish"];
+trauma[b];
+} else if (a==2){
+`Tarot Serenade: `;
+c = Math.floor(Math.random() * 22);
+tarot = ["The Fool - https://bit.ly/3ytJQGY","The Magician - https://bit.ly/3N9Vn2v","The High Priestess - https://bit.ly/3M6Fw4C","The Empress - https://bit.ly/3l0Zv8Y","The Emperor - https://bit.ly/38drGyN","The Hierophant - https://bit.ly/3M3miwH","The Lovers - https://bit.ly/3KXBLx3","The Chariot - https://bit.ly/3M6HTo2","Strength - https://bit.ly/3L45eoT","The Hermit - https://bit.ly/3kVSbLP","Wheel of Fortune - https://bit.ly/3N9YqaX","Justice - https://bit.ly/3L7gAIK","The Hanged Man - https://bit.ly/3Fx77cJ","Death - https://bit.ly/3wch4JH","Temperance - https://bit.ly/3yBHrKi","The Devil - https://bit.ly/3yBHrKi","The Tower - https://bit.ly/37F1iNW","The Star - https://bit.ly/3stefBp","The Moon - https://bit.ly/3w0OuL6","The Sun - https://bit.ly/3w32OCK","Judgement - https://bit.ly/39SJbVr","The World - https://bit.ly/3M38vWQ"];
+tarot[c];
+} else if (a==3) {
+d = Math.floor(Math.random() * 99);
+d = d+2
+d;
+` Hip Hip Hurray(s)!`;
+} else if (a==4) {
+prize = ["A Brand New Car!","An all Expenses Paid Trip to Disney World!","A Cruise in the Bahammas!","One Million Dollars!"];
+e = Math.floor(Math.random() * 4);
+prize[e];
+} else {`HUGS!!!`}
